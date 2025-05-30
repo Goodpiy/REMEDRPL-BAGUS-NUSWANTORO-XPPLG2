@@ -1,0 +1,94 @@
+.atas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkred;
+    top: auto;
+    padding: 1rem;
+    z-index: 1000;
+    width: 100%;
+}
+h2{
+    margin-top: 25px;
+}
+#spek{
+    display: none;
+}
+button{
+    background-color: rgb(36, 36, 196);
+    color: white;
+    border-radius: 20px;
+}
+#ghost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#lion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.container{
+    background-color: rgb(50, 50, 153);
+    color: white;
+}
+.container h4{
+margin: 0 0 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container p{
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    flex-direction: column;
+    border-color: red;
+    border-top: 20px;
+}
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+    margin-top: 30px;
+    bottom: 0;
+    z-index: 1000;
+    padding: 1rem;
+    width: 100%;
+    
+}
+body{
+    gap: 50px;
+    min-height: 100cm;
+    overflow-y: auto;
+}
+
+
+    
+
