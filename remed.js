@@ -34,7 +34,7 @@ function pencet(){
     let keluar = document.getElementById('output');
     let kotak = document.createElement('div');
     kotak.className = 'container';
-    kotak.innerHTML = `
+    kotak.innerHTML = `<div style=" border: 2px solid #ccc; padding :10px; margin-bottom: 15px;">
         <h4><strong> nama produk: </strong> ${nama}</h4>
         <p><strong>Harga:</strong> Rp ${parseInt(harga).toLocaleString()}</p>
         <p><strong>Deskripsi:</strong> ${des}</p>
