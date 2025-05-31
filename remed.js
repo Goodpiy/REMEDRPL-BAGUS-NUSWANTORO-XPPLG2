@@ -61,3 +61,19 @@ function hapussatu(el){
         }
     }); 
 }
+function semua(){
+    swal.fire({
+        icon: 'eror',
+        title: 'hapus semua ni?',
+        showCancelButton:true,
+        confirmButton: 'lanjut',
+        cancelButton: 'gk jadi ',
+}) .then((result) =>{
+    if(result.isConfirmed){
+        output.innerHTML='';
+        swal.fire('nice', "", 'success')
+    }
+})
+
+}
+
