@@ -24,7 +24,7 @@ h2{
     display: none;
 }
 button{
-    background-color: rgb(36, 36, 196);
+background-color: red;
     color: white;
     border-radius: 20px;
 }
@@ -41,9 +41,9 @@ button{
     align-items: center;
     gap: 25px;
 }
-.container{
-    background-color: rgb(50, 50, 153);
-    color: white;
+.container{ 
+    background-color: rgb(169, 169, 240);
+    color: black;
 }
 .container h4{
 margin: 0 0 10px;
